@@ -535,7 +535,6 @@ const App = () => {
                           'div',
                           { key: i, className: 'incident-row' },
                           React.createElement('span', { className: 'incident-type' }, '⚡ Speed Anomaly'),
-                          React.createElement('span', { className: 'incident-location' }, incident.randomized_id),
                           React.createElement('span', { className: 'incident-speed' }, `${Math.round(incident.spd)} km/h`)
                         )
                       )
